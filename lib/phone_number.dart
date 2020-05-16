@@ -70,7 +70,6 @@ class PhoneNumber {
         throw FormatException("exchange code cannot start with one");
       }
     } else {
-      print(phoneNumber);
       return phoneNumber;
     }
   }
